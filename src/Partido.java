@@ -1,6 +1,6 @@
 import java.lang.reflect.Array;
 
-public class Partido extends Equipo {
+public class Partido extends Equipo, ResultadoEnum {
 
 
     private Equipo equipo1= new Equipo();
@@ -8,6 +8,19 @@ public class Partido extends Equipo {
 
     private int golesEquipo1;
     private int golesEquipo2;
+
+    public void Partido(){
+        
+    }
+
+    //--------------------------------------------
+
+    public Equipo getEquipo2() {
+        return equipo2;
+    }
+    public void setEquipo2(Equipo equipo2) {
+        this.equipo2 = equipo2;
+    }
 
     //------------------------------------------
 
@@ -38,9 +51,15 @@ public class Partido extends Equipo {
 
     //-------------------------------------------
 
-    int resultado(){
+    public int resultado(){
 
         return ResultadoEnum();
+    }
+    public Equipo getEquipo2() {
+        return equipo2;
+    }
+    public void setEquipo2(Equipo equipo2) {
+        this.equipo2 = equipo2;
     }
 
 }
