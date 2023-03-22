@@ -1,7 +1,7 @@
 public class ResultadoEnum {
 
-    String ganador;
-    String perdedor;
-    Boolean empate;
+    public String ganador;
+    public String perdedor;
+    public Boolean empate;
 
 }
