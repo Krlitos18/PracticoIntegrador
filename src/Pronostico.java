@@ -1,7 +1,8 @@
-public class Pronostico extends Equipo{
 
-    Partido partido = new Partido();
-    Equipo equipo = new Equipo();
-    
+public class Pronostico extends Equipo, ResultadoEnum{
+
+    private Partido partido = new Partido();
+    private Equipo equipo = new Equipo();
+
     
 }
