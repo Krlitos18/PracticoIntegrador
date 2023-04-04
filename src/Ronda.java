@@ -1,11 +1,29 @@
-public class Ronda extends Partido{
+public class Ronda {
 
-    String nro;
-    Partido[] partido = new Partido[2];
+    int puntos;
 
-    //---------------------------------------
+   private String nro;
 
+    //------------------------------CONSTRUCTOR
+
+    public Ronda(){
+        
+    }
+
+    //---------------------------------------  Seter y Geter Nro
+
+    public String getNro() {
+        return nro;
+    }
+
+    public void setNro(String nro) {
+        this.nro = nro;
+    }
+
+    //--------------------------------------- Metodo Puntos
     public int puntos(){
+
+        return puntos;
 
     }
 

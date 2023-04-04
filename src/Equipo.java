@@ -1,28 +1,20 @@
 public class Equipo {
 
     private String nombre;
-    private String descripcion;  
 
     //-------------------------------------
 
-    public Equipo(){
-
+    public Equipo(){              //CONSTRUCTOR
+        
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+    //---------------------------------------------      Seter y geter Nombre
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
-    public String getnombre(){
+    public String getNombre(){
         return nombre;
     }
 
-    public String getdescripcion(){
-        return descripcion;
+    public void setNombre(String nombre){
+        this.nombre = nombre;
     }
-    //----------------------------------------
 }

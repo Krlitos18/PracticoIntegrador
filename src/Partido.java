@@ -1,65 +1,27 @@
-import java.lang.reflect.Array;
+//import java.lang.reflect.Array;
 
-public class Partido extends Equipo, ResultadoEnum {
+public class Partido {
+
+    private int golesEquipo;
 
 
-    private Equipo equipo1= new Equipo();
-    private Equipo equipo2 = new Equipo();
-
-    private int golesEquipo1;
-    private int golesEquipo2;
-
-    public void Partido(){
+    
+    public Partido(){
         
     }
 
-    //--------------------------------------------
+    //------------------------------------------- Seter y Geter Equipo 1
 
-    public Equipo getEquipo2() {
-        return equipo2;
+    public int getGolesEquipo() {
+        return golesEquipo;
     }
-    public void setEquipo2(Equipo equipo2) {
-        this.equipo2 = equipo2;
+    public void setGolesEquipo(int golesEquipo) {
+        this.golesEquipo = golesEquipo;
     }
-
-    //------------------------------------------
-
-    public Equipo getEquipo1() {
-        return equipo1;
-    }
-    public void setEquipo1(Equipo equipo1) {
-        this.equipo1 = equipo1;
-    }
-
     //-------------------------------------------
 
-    public int getGolesEquipo1() {
-        return golesEquipo1;
-    }
-    public void setGolesEquipo1(int golesEquipo1) {
-        this.golesEquipo1 = golesEquipo1;
-    }
+    //public ResultadoEnum resultado(Equipo equipo){
 
-    //----------------------------------------------
-
-    public int getGolesEquipo2() {
-        return golesEquipo2;
-    }
-    public void setGolesEquipo2(int golesEquipo2) {
-        this.golesEquipo2 = golesEquipo2;
-    }
-
-    //-------------------------------------------
-
-    public int resultado(){
-
-        return ResultadoEnum();
-    }
-    public Equipo getEquipo2() {
-        return equipo2;
-    }
-    public void setEquipo2(Equipo equipo2) {
-        this.equipo2 = equipo2;
-    }
-
+      // return ResultadoEnum();
+    //}
 }
